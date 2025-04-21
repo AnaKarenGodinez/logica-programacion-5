@@ -32,6 +32,7 @@ public class Dictionary {
 
         Scanner scanner = new Scanner(System.in);
 
+        System.out.println("Escribe la traducción de las siguientes palabras: ");
         for (int i = 0; i<5; i++){
             String clave = claves.get(i);
             System.out.println(clave + " -> ");
